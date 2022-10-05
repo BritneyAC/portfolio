@@ -1,0 +1,27 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  background: black;
+  background-image: conic-gradient(from 45deg, 
+  #132e05 0deg 90deg, 
+  black 90deg 180deg, 
+  #132e05 180deg 270deg, 
+  black 270deg 360deg
+  );
+  background-size: 46vh 46vh;
+}
