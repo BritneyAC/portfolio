@@ -1,8 +1,8 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import styles from '@/styles/css/Home.module.css'
+import type { NextPage } from "next"
+import Head from "next/head"
+import styles from "@/styles/css/Home.module.css"
 
-import Gallery from '@/components/Gallery'
+import Gallery from "@/components/Gallery"
 
 const Home: NextPage = () => {
   return (
@@ -15,9 +15,11 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1>Britney Conley</h1>
-        <p>Hi, I'm Britney, I like to make websites, recently mostly in React.</p>
+        <p>
+          {`Hi, I'm Britney, I like to make websites, recently mostly in React.`}
+        </p>
         <Gallery />
-        <p><a href='https://github.com/BritneyAC'>Github</a> | <a download href={"BritneyConley.pdf"}>Resume</a></p>
+        <p><a href="https://github.com/BritneyAC">Github</a> | <a download href={"BritneyConley.pdf"}>Resume</a></p>
       </main>
     </div>
   )
