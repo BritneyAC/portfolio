@@ -14,7 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
 body {
+  overflow-x: hidden;
+  overflow-y: auto;
   color: white;
   background: black;
   background-image: conic-gradient(from 45deg, 

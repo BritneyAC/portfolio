@@ -1,18 +1,16 @@
 .gallery {
-  width: 90%;
-  height: max-content;
+  max-width: 90%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  overflow-y: auto;
 }
 
 .project {
   max-width: 100%;
   height: 100%;
-  aspect-ratio: 10/8;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -24,7 +22,6 @@
   padding: 1rem 2rem;
   border-radius: 1.5rem;
   line-height: 1;
-  overflow: visible;
 }
 .project *:not(a:last-of-type)::after {
   content: "";
@@ -42,11 +39,7 @@
   font-size: clamp(1rem, 2vw, 2vh);
 }
 .project > * {
-  overflow: visible;
   padding: 0.25rem 0;
-}
-.project a {
-  overflow: visible;
 }
 .project a:last-of-type {
   background-color: hsl(200deg, 66%, 20%);
@@ -56,8 +49,8 @@
   width: fit-content;
   margin: 0 auto;
 }
-.project Image {
-  width: 100%;
+.project span {
+  max-height: 40vh;
   aspect-ratio: 16/9;
 }
 

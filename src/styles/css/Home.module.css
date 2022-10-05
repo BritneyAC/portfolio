@@ -1,28 +1,27 @@
 .main {
-  max-width: 99vw;
+  max-height: 100vh;
+  box-sizing: border-box;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
   padding: 1rem;
-  overflow: hidden;
 }
 .main * {
-  overflow: hidden;
   margin: 0;
   text-align: center;
 }
 .main > h1, .main > p, .main > a {
   background-color: hsl(200deg, 66%, 20%);
   padding: 1rem;
-  max-width: calc(100% - 8rem);
+  max-width: calc(100% - 6rem);
   border-radius: 0.75rem;
 }
 .main > h1, .main > p {
   border-radius: 0.75rem 0.75rem 0 0;
 }
 .main > h1 {
-  font-size: clamp(2rem, 4vw, 4vh);
+  font-size: clamp(1.75rem, 4vw, 4vh);
 }
 .main > p, .main > a {
   font-size: clamp(1rem, 2.5vw, 3vh);
@@ -31,9 +30,8 @@
   border-radius: 0 0 0.75rem 0.75rem;
   display: flex;
   justify-content: space-evenly;
-  min-width: 30%;
+  width: 50%;
 }
 .main > p:last-of-type > * {
   width: 30%;
-  overflow: visible;
 }
