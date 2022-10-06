@@ -1,7 +1,5 @@
 import styles from "@/styles/css/Gallery.module.css"
 import Image from "next/future/image"
-import Demo from "@/previews/idleitaireDemo.gif"
-import CarverVo from "@/previews/carvervo.png"
 
 export default function Gallery(){
   return (
@@ -20,7 +18,7 @@ export default function Gallery(){
           <Image src={"/previews/carvervo.png"} unoptimized={true} priority fill alt="preview of carvervo.com"/>
         </div>
         </a>
-        <p>Portfolio website for my friend that is a narrorator</p>
+        <p>Portfolio website for my friend that is a narrator</p>
         <a href="https://github.com/BritneyAC/talia-narration">Github</a>
       </div>
     </div>
