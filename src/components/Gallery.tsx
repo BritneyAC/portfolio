@@ -9,7 +9,7 @@ export default function Gallery(){
       <div className={styles.project}>
         <a href="https://www.idleitaire.com"><h2>Idleitaire</h2>
         <div>
-          <Image src={"/previews/idleitaireDemo.gif"} fill alt="preview of idleitaire.com" quality={75}/>
+          <Image src={"/previews/idleitaireDemo.gif"} priority fill alt="preview of idleitaire.com" quality={75}/>
         </div></a>
         <p>A version of solitaire made into a idle game.</p>
         <a href="https://github.com/BritneyAC/idleitaire">Github</a>
@@ -17,7 +17,7 @@ export default function Gallery(){
       <div className={styles.project}>
         <a href="https://www.carvervo.com"><h2>Carver VO</h2>
         <div>
-          <Image src={"/previews/carvervo.png"} fill alt="preview of carvervo.com"/>
+          <Image src={"/previews/carvervo.png"} priority fill alt="preview of carvervo.com"/>
         </div>
         </a>
         <p>Portfolio website for my friend that is a narrorator</p>
